@@ -4,15 +4,14 @@ Jusin Fanesi's CS 210 Repo.
 This project simulates an investment calculator, allowing the user to input amounts for Initial Investment, Monthly Deposit, Annual interest, and Number of Years.
 This allows the user to view their year-end balances + earned interest in two options, with or without monthly deposits.
 
-InvestmentCalculator class (InvestmentCalculator.h): 
+InvestmentCalculator class (InvestmentCalculator.h) and InvestmentCalculator.cpp):
 
 This class encapsulates the investment-related calculations and data.
 It has private member variables for Initial Investment, Monthly Deposit, Annual Interest Rate, and Number of Years.
 The class constructor initializes these member variables based on the input provided.
 The calculateAndDisplayReport() method performs the calculations for year-end balances and earned interest under two scenarios: with and without monthly deposits.
-Main Program (main.cpp):
 
-InvestmentCalculator.cpp:
+Main Program (main.cpp):
 
 The main program interacts with the user to gather input for Initial Investment, Monthly Deposit, Annual Interest Rate, and Number of Years.
 It then creates an instance of the InvestmentCalculator class using the provided input.
